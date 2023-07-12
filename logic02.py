@@ -1,5 +1,8 @@
 def main(a,b):
-    """
+    return a>0 and b>0
+print(main(5,3))
+print(main(6,-4))
+"""
     Given two integers a, b,  check the following statement "Each of the numbers 'a' and 'b' is positive".
     Args:
         a(int): parameter a
@@ -7,4 +10,3 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    return
